@@ -1,0 +1,24 @@
+# CubeIDE / GCC build output
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.o
+*.d
+*.su
+*.cyclo
+
+# Editor / OS
+.metadata/
+.settings/
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Not part of the STM32 EnvMonitor firmware
+Core/Src/ECE3110_CE_plots/
+Core/Src/plot_bjt_output_characteristics.py
+Core/Src/bjt_output_characteristics.png
